@@ -1,0 +1,30 @@
+{
+  "yield_strength": 250.0,
+  "sections": [
+    {"name": "weld_toe", "normal": [1.0, 1.0, 0.0]},
+    {"name": "base_plate", "normal": [0.0, 0.0, 1.0]}
+  ],
+  "cases": [
+    {
+      "id": "axial_test",
+      "stress": {"xx": 180.0, "yy": 0.0, "zz": 0.0, "xy": 0.0, "yz": 0.0, "zx": 0.0},
+      "rotation": [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]]
+    },
+    {
+      "id": "sim_shear",
+      "stress": {"xx": 0.0, "yy": 0.0, "zz": 0.0, "xy": 90.0, "yz": 0.0, "zx": 0.0},
+      "rotation": [
+        [0.8660254037844386, -0.5, 0.0],
+        [0.5, 0.8660254037844386, 0.0],
+        [0.0, 0.0, 1.0]
+      ]
+    },
+    {
+      "id": "service_combo",
+      "combination": [
+        {"case": "axial_test", "coefficient": 1.0},
+        {"case": "sim_shear", "coefficient": 0.8}
+      ]
+    }
+  ]
+}
