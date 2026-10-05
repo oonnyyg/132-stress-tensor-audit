@@ -1,0 +1,384 @@
+{
+  "yield_strength_mpa": 250.0,
+  "cases": [
+    {
+      "id": "tension_x",
+      "status": "ok",
+      "source": "tensor",
+      "global_stress_mpa": [
+        [
+          248.80338717125852,
+          91.06836025229592,
+          -66.66666666666667
+        ],
+        [
+          91.0683602522959,
+          33.33333333333333,
+          -24.401693585629243
+        ],
+        [
+          -66.66666666666666,
+          -24.40169358562924,
+          17.86327949540818
+        ]
+      ],
+      "principal_stresses": [
+        {
+          "rank": 1,
+          "value_mpa": 300.0,
+          "direction": [
+            0.9106836025229591,
+            0.33333333333333326,
+            -0.24401693585629242
+          ],
+          "direction_unique": true
+        },
+        {
+          "rank": 2,
+          "value_mpa": 1.0230918304125026e-15,
+          "direction": [
+            0.39367558077706155,
+            -0.5212483619354822,
+            0.7571787650742854
+          ],
+          "direction_unique": false,
+          "note": "repeated principal stress: principal direction is not unique"
+        },
+        {
+          "rank": 3,
+          "value_mpa": -2.5714506964076326e-15,
+          "direction": [
+            -0.1251994935918204,
+            0.7856137944744005,
+            0.60591752964895
+          ],
+          "direction_unique": false,
+          "note": "repeated principal stress: principal direction is not unique"
+        }
+      ],
+      "mean_stress_mpa": 100.0,
+      "von_mises_mpa": 300.00000000000006,
+      "yield_strength_mpa": 250.0,
+      "yielded": true,
+      "eigen_residual_mpa": 1.461362098572791e-14
+    },
+    {
+      "id": "pure_shear",
+      "status": "ok",
+      "source": "tensor",
+      "global_stress_mpa": [
+        [
+          0.0,
+          120.0,
+          0.0
+        ],
+        [
+          120.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "principal_stresses": [
+        {
+          "rank": 1,
+          "value_mpa": 119.99999999999997,
+          "direction": [
+            0.7071067811865475,
+            0.7071067811865475,
+            0.0
+          ],
+          "direction_unique": true
+        },
+        {
+          "rank": 2,
+          "value_mpa": 0.0,
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "direction_unique": true
+        },
+        {
+          "rank": 3,
+          "value_mpa": -119.99999999999997,
+          "direction": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "direction_unique": true
+        }
+      ],
+      "mean_stress_mpa": 0.0,
+      "von_mises_mpa": 207.84609690826528,
+      "yield_strength_mpa": 250.0,
+      "yielded": false,
+      "eigen_residual_mpa": 1.4210854715202004e-14
+    },
+    {
+      "id": "hydrostatic",
+      "status": "ok",
+      "source": "tensor",
+      "global_stress_mpa": [
+        [
+          -80.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -80.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -80.0
+        ]
+      ],
+      "principal_stresses": [
+        {
+          "rank": 1,
+          "value_mpa": -80.0,
+          "direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "direction_unique": false,
+          "note": "repeated principal stress: principal direction is not unique"
+        },
+        {
+          "rank": 2,
+          "value_mpa": -80.0,
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "direction_unique": false,
+          "note": "repeated principal stress: principal direction is not unique"
+        },
+        {
+          "rank": 3,
+          "value_mpa": -80.0,
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "direction_unique": false,
+          "note": "repeated principal stress: principal direction is not unique"
+        }
+      ],
+      "mean_stress_mpa": -80.0,
+      "von_mises_mpa": 0.0,
+      "yield_strength_mpa": 250.0,
+      "yielded": false,
+      "eigen_residual_mpa": 0.0
+    },
+    {
+      "id": "service_combo",
+      "status": "ok",
+      "source": "combination",
+      "global_stress_mpa": [
+        [
+          239.04270973700682,
+          216.85468820183672,
+          -53.33333333333334
+        ],
+        [
+          216.85468820183672,
+          66.66666666666666,
+          -19.521354868503394
+        ],
+        [
+          -53.33333333333333,
+          -19.521354868503394,
+          54.29062359632654
+        ]
+      ],
+      "principal_stresses": [
+        {
+          "rank": 1,
+          "value_mpa": 395.1248823568746,
+          "direction": [
+            0.8194154399753737,
+            0.5504889740778498,
+            -0.15975051220162478
+          ],
+          "direction_unique": true
+        },
+        {
+          "rank": 2,
+          "value_mpa": 46.841553520773516,
+          "direction": [
+            0.07213017695294596,
+            0.17745612921715642,
+            0.981481818362419
+          ],
+          "direction_unique": true
+        },
+        {
+          "rank": 3,
+          "value_mpa": -81.96643587764801,
+          "direction": [
+            -0.5686436268021491,
+            0.8157641887346984,
+            -0.10570342508792197
+          ],
+          "direction_unique": true
+        }
+      ],
+      "mean_stress_mpa": 120.0,
+      "von_mises_mpa": 427.4978954408863,
+      "yield_strength_mpa": 250.0,
+      "yielded": true,
+      "eigen_residual_mpa": 1.1368683772161603e-13
+    }
+  ],
+  "sections": [
+    {
+      "case_id": "tension_x",
+      "section_id": "z_plane",
+      "status": "ok",
+      "unit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "traction_mpa": [
+        -66.66666666666667,
+        -24.401693585629243,
+        17.86327949540818
+      ],
+      "normal_stress_mpa": 17.86327949540818,
+      "shear_mpa": 70.99216220324173
+    },
+    {
+      "case_id": "tension_x",
+      "section_id": "diag",
+      "status": "ok",
+      "unit_normal": [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ],
+      "traction_mpa": [
+        157.7350269189626,
+        57.735026918962575,
+        -42.26497308103742
+      ],
+      "normal_stress_mpa": 100.00000000000003,
+      "shear_mpa": 141.42135623730954
+    },
+    {
+      "case_id": "pure_shear",
+      "section_id": "z_plane",
+      "status": "ok",
+      "unit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "traction_mpa": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal_stress_mpa": 0.0,
+      "shear_mpa": 0.0
+    },
+    {
+      "case_id": "pure_shear",
+      "section_id": "diag",
+      "status": "ok",
+      "unit_normal": [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ],
+      "traction_mpa": [
+        69.2820323027551,
+        69.2820323027551,
+        0.0
+      ],
+      "normal_stress_mpa": 80.00000000000001,
+      "shear_mpa": 56.56854249492381
+    },
+    {
+      "case_id": "hydrostatic",
+      "section_id": "z_plane",
+      "status": "ok",
+      "unit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "traction_mpa": [
+        0.0,
+        0.0,
+        -80.0
+      ],
+      "normal_stress_mpa": -80.0,
+      "shear_mpa": 0.0
+    },
+    {
+      "case_id": "hydrostatic",
+      "section_id": "diag",
+      "status": "ok",
+      "unit_normal": [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ],
+      "traction_mpa": [
+        -46.188021535170066,
+        -46.188021535170066,
+        -46.188021535170066
+      ],
+      "normal_stress_mpa": -80.00000000000001,
+      "shear_mpa": 1.2306961192854808e-14
+    },
+    {
+      "case_id": "service_combo",
+      "section_id": "z_plane",
+      "status": "ok",
+      "unit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "traction_mpa": [
+        -53.33333333333334,
+        -19.521354868503394,
+        54.29062359632654
+      ],
+      "normal_stress_mpa": 54.29062359632654,
+      "shear_mpa": 56.793729762593394
+    },
+    {
+      "case_id": "service_combo",
+      "section_id": "diag",
+      "status": "ok",
+      "unit_normal": [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ],
+      "traction_mpa": [
+        232.42047106606122,
+        152.4204710660612,
+        -10.71796769724491
+      ],
+      "normal_stress_mpa": 216.00000000000006,
+      "shear_mpa": 175.24311741728684
+    }
+  ]
+}
